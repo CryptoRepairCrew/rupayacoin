@@ -1,0 +1,9 @@
+Building RupayaCoin
+
+See doc/readme-qt.rst for instructions on building RupayaCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of RupayaCoin.
+
+See doc/build-*.txt for instructions on building RupayaCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of RupayaCoin.
