@@ -2030,14 +2030,14 @@ bool CBlock::AddToBlockIndex(CValidationState &state, const CDiskBlockPos &pos)
 int GetAuxPowStartBlock()
 {
     if (fTestNet)
-        return INT_MAX; // never
+        return 1; // never
     else
-        return INT_MAX; // never
+        return 135500; // never
 }
 
 int GetOurChainID()
 {
-    return 0x0000;
+    return 0x0003;
 }
 
 bool CBlockHeader::CheckProofOfWork(int nHeight) const
