@@ -246,6 +246,8 @@ static const CRPCCommand vRPCCommands[] =
     { "signmessage",            &signmessage,            false,     false,      true },
     { "verifymessage",          &verifymessage,          false,     false,      false },
     { "getwork",                &getwork,                true,      false,      true },
+    { "getworkaux",             &getworkaux,             true,      false,      true },
+    { "getauxblock",            &getauxblock,            true,      false,      true },
     { "getworkex",              &getworkex,              true,      false,      true },
     { "listaccounts",           &listaccounts,           false,     false,      true },
     { "settxfee",               &settxfee,               false,     false,      true },
